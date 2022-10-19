@@ -1,42 +1,43 @@
 # Harmony Jekyll theme general configurations 
 
 # Base URL
-baseurl: /harmony
+baseurl: http://vladyyerys.com
 
 # Site live URL
-url: http://gayan.me
+url: http://vladyyerys.github.io
 
 # Localhost 
 # url: http://127.0.0.1:4000  
 
 # Harmony theme configuration. Please change accordingly.
 harmony:
-  name: Harmony
+  name: Vlady Yerys
   # Little description about your site
-  description: Harmony is free responsive jekyll theme.
+  description: Project Manager | DevOps Pre-Production at EPAM Systems
   # 'meta_description:' Write an awesome description for your new site here.
   # It will appear in your document head meta (for Google search results) and 
   # in your feed.xml site description.
   meta_description: > # 
-   Harmony is a free responsive jekyll theme by Gayan Virajith
-   and Maheshika Lakmali. Sourced on Github - 
-   https://github.com/gayanvirajith/harmony
+   Here is my misserable attempt to have a blog. Hope you enjoy!
+   The world belongs to those who show up!
+   Kind Regards,VladyYerys!
+   (c) VladyYerys
   basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
   author: # Author details
-    name: Gayan Virajith
-    email: gayanvirajith@gmail.com
-    url: http://gayanvirajith.github.io
+    name: Vlady Yerys
+    email: vladyyerys@vladyyerys.com
+    url: http://vladyyerys.github.io
 
   # Google Analytics key, leave blank to ignore
   google_analytics_key: UA-xxxx-x
 
   # Profile links, leave blank to ignore
-  social: 
-    github: gayanvirajith
-    twitter: gayanvirajith
-    facebook: gayanvirajith
-    gplus: +GayanVirajith
-    dribble: gayan
+  social:
+    github: vladyyerys
+    twitter: vladyyerys
+    facebook: vladyyerys
+    gplus: vladyyerys
+    dribble: vladyyerys
     pinterest: 
   # Toggle disclaimer in footer
   show_disclaimer: true
