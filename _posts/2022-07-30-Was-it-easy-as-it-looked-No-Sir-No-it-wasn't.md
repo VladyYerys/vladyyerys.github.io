@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "What is Jekyll!"
-date:   2014-07-28 22:48:45
-description: Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.
+title:  "Was it easy as it looked? No, Sir, No, it wasn't"
+date:   2022-07-30 22:48:45
+description: I am extremely happy, grateful, and excited!
+Thank you, EPAM Systems, EPAM UpSkill Team...
 categories:
 - blog
 - jekyll

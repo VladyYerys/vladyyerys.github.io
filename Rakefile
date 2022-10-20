@@ -5,7 +5,12 @@ task :preview do
     sh "jekyll serve --watch --drafts --baseurl '' --config _config.yml,_config-dev.yml"
 end
 
+desc 'Preview the site with Jekyll'
+task :gitpreview do
+    sh "jekyll serve --watch --baseurl '' --config _config.yml,_config-dev.yml"
+end
+
 desc 'Search site and print specific deprecation warnings'
-task :check do 
+task :check do
     sh "jekyll doctor"
 end

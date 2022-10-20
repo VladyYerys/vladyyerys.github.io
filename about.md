@@ -1,27 +1,27 @@
 ---
-layout: page
-title: About me
-permalink: /about/
+layout: about
+title: "About me"
+permalink: /about
+img: "/dojocat.jpg"
 ---
 
-Hi, I am Gayan Virajith, a developer (who works on the web) based on Sri Lanka. 
-Graduated from the University College Dublin (National University of Ireland). 
+Hi, I am VladyYerys, a DevOps from Ukraine.
 
-I am Working for [template-factory.nl][tf] also known as [Mearch ICT][m].
-Prefer to serve with Php and Ruby based stacks and also love to work 
-on [Jekyll][jekyll] and [Processwire CMS/CMF][pw].
+Areas of interest:
+
+- Automation
+- Boto3 AWS
+- CI/CD
+- Webservers, nginx, docker, wordpress
+- I always focus on how I can add value to the organization by providing secure and innovative solutions based on the needs of the business.
+
+Now I am 'mining' experience on my internship @ Google.
 
 ### Contact me
 
-Find me on [Google+][google] / [Github][github] / [Twitter][Twitter] or just say `Hello` at 
-[gayanvirajith@gmail.com](gayanvirajith@gmail.com).
+Find me on [Github][github] / [Facebook][facebook] / or just say `Hello` at
+[vladyyerys@vladyyerys.com](vladyyerys@vladyyerys.com).
 
 
-[tf]: http://template-factory.nl
-[m]: http://mearch.com
-[pw]: http://processwire.com
-[pwf]: http://processwire.com/talk
-[jekyll]: http://jekyllrb.com
-[github]: https://github.com/gayanvirajith
-[google]: https://plus.google.com/+GayanVirajith
-[twitter]: https://twitter.com/gayanvirajith
+[github]: https://github.com/VladyYerys
+[facebook]: https://www.facebook.com/yerys.vlady/
