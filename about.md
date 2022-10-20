@@ -15,8 +15,6 @@ Areas of interest:
 - Webservers, nginx, docker, wordpress
 - I always focus on how I can add value to the organization by providing secure and innovative solutions based on the needs of the business.
 
-Now I am 'mining' experience on my internship @ Google.
-
 ### Contact me
 
 Find me on [Github][github] / [Facebook][facebook] / or just say `Hello` at
