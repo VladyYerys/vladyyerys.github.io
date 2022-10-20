@@ -3,39 +3,44 @@ layout: default
 title: "Blog"
 ---
 
+---
+layout: default
+title: "Projects"
+---
+
 <div id="home">
-	<div class="posts">
-		{% for post in site.posts limit:10 %}
-			<div class="post">
-				<h3 class="post-title">
-					<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
-						{{ post.title }}
+	<div class="projects">
+		{% assign sorted_projects = site.projects | sort: 'order' %}
+		{% for project in sorted_projects limit:10 %}
+			<div class="project">
+  			<h3 class="project-title">
+					<a href="{{ project.github | prepend: 'https://github.com/lionell' }}">
+						{{ project.title }}
 					</a>
 				</h3>
 
-				<p class="post-meta">
-					{% if (post.categories.size > 0 %}
+				<img src="{{ project.img | prepend: '/assets/img' | prepend: site.baseurl | prepend: site.url }}" class="project-img"/>
+
+				<p class="project-meta">
+					{% if (project.tags.size > 0 %}
 						<span class="categories">
-							{{ post.categories | array_to_sentence_string }}
-						</span> |
+							{{ project.tags | array_to_sentence_string }}
+						</span>
 					{% endif %}
-					<span class="post-date">
-						{{ post.date | date: "%b %-d, %Y" }}
-					</span>
 				</p>
 
 				<p>
-					{{ post.excerpt }}
+					{{ project.excerpt }}
 				</p>
 				<p>
-					<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" title="{{ post.title}}">
-						Read More
+					<a href="{{ project.github | prepend: 'https://github.com/lionell' }}" title="{{ project.title }}">
+						See on GitHub
 					</a>
 				</p>
 			</div>
 		{% endfor %}
 	</div>
-	<div class="post-footer">
-		<div class="column-full"><a href="{{ '/archive' | prepend: site.baseurl | prepend: site.url }}">Blog archive</a></div>
+	<div class="project-footer">
+		<div class="column-full"><a href="#">Comming soon!</a></div>
 	</div>
 </div>
